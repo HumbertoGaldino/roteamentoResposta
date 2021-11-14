@@ -23,12 +23,11 @@ Pelo sistema de roteamento do Express é possível definirmos na nossa aplicaç�
     5. Dentro desta função será definida a lógica de manipulação para resposta da requisição feita pelo cliente.
        -Utilizamos o método send() do objeto resposta(response) que envia uma resposta de texto ao navegador(cliente)
     
-
-´´´
+```
     app.get('/',(requisicao,resposta) =>{
     resposta.send('Ola Mundo!');
     });
-´´´
+```
 
 
 **Foi adicionado ao pacote o nodemon(Forma de instalação -> npm install nodemon -g) para que o servidor não necessita-se ser parado a cada atualização do código. A cada vez que houver uma alteração e o arquivo for salvo, ele se encarregará de reiniciar o servidor. Para isso ao invés de iniciarmos o servidor pelo *node app.js* iniciamos pelo pacote nodemon -> *nodemon app.js***
