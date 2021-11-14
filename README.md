@@ -10,7 +10,7 @@ Exercício de criação de um servidor HTTP com Routing &amp; Response utilizand
 
 >Chamamos de Response a resposta que se obtém do site uma vez que o sistema de roteamento te envia para a rota requisitada. Esta resposta pode ser de diferentes tipos pois poderia te devolver apenas texto plano, texto em formato HTML, entregar um documento PDF, um arquivo de imagem ou qualquer formato que o navegador possa interpretar.
 
-*Texto Digital House*
+>*Texto Digital House*
 
 Pelo sistema de roteamento do Express é possível definirmos na nossa aplicação todas as respostas conforme o método HTTP e a rota solicitada ao servidor.
 
@@ -21,14 +21,14 @@ Pelo sistema de roteamento do Express é possível definirmos na nossa aplicaç�
     3. O primeiro parâmetro da função é a string que define a rota que será tomada após a chamada da requisição
     4. Logo após temos a *callback* que será a responsável por responder a requisição de forma adequada
     5. Dentro desta função será definida a lógica de manipulação para resposta da requisição feita pelo cliente.
-        -Utilizamos o método send() do objeto resposta(response) que envia uma resposta de texto ao navegador(cliente)
+       -Utilizamos o método send() do objeto resposta(response) que envia uma resposta de texto ao navegador(cliente)
     
 
-'''
+´´´
     app.get('/',(requisicao,resposta) =>{
     resposta.send('Ola Mundo!');
     });
-'''
+´´´
 
 
 **Foi adicionado ao pacote o nodemon(Forma de instalação -> npm install nodemon -g) para que o servidor não necessita-se ser parado a cada atualização do código. A cada vez que houver uma alteração e o arquivo for salvo, ele se encarregará de reiniciar o servidor. Para isso ao invés de iniciarmos o servidor pelo *node app.js* iniciamos pelo pacote nodemon -> *nodemon app.js***
