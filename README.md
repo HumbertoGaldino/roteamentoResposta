@@ -16,10 +16,10 @@ Pelo sistema de roteamento do Express é possível definirmos na nossa aplicaç�
 
 ## Definindo rota
 
-    1. Inserimos a constate *app* que guarda a execução do Express
-    2. Inserimos o método HTPP - *get,post,put,patch ou delete*
+    1. Inserimos a constate app que guarda a execução do Express
+    2. Inserimos o método HTPP - get,post,put,patch ou delete
     3. O primeiro parâmetro da função é a string que define a rota que será tomada após a chamada da requisição
-    4. Logo após temos a *callback* que será a responsável por responder a requisição de forma adequada
+    4. Logo após temos a callback que será a responsável por responder a requisição de forma adequada
     5. Dentro desta função será definida a lógica de manipulação para resposta da requisição feita pelo cliente.
        -Utilizamos o método send() do objeto resposta(response) que envia uma resposta de texto ao navegador(cliente)
     
