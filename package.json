@@ -1,0 +1,23 @@
+{
+  "name": "expresshttp",
+  "version": "1.0.0",
+  "description": "Exercício de criação de um servidor HTTP utilizando Express aplicado no curso Web Fullstack da Digital House.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumbertoGaldino/expressHTTP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumbertoGaldino/expressHTTP/issues"
+  },
+  "homepage": "https://github.com/HumbertoGaldino/expressHTTP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
